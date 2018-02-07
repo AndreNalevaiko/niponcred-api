@@ -727,3 +727,13 @@ sqlalchemy.exc.InternalError: (pymysql.err.InternalError) (1054, "Unknown column
 19824 [2018-02-06 23:58:51,802] werkzeug WARNING:  * Debugger is active!
 19824 [2018-02-06 23:58:51,802] werkzeug INFO:  * Debugger PIN: 134-541-652
 19824 [2018-02-07 00:02:51,007] werkzeug INFO: 127.0.0.1 - - [07/Feb/2018 00:02:51] "GET /v1/contract HTTP/1.1" 200 -
+19824 [2018-02-07 00:08:10,550] werkzeug INFO:  * Detected change in '/home/andre/devops/niponcred-api/run.py', reloading
+19409 [2018-02-07 00:08:10,596] werkzeug INFO:  * Restarting with stat
+21130 [2018-02-07 00:08:11,064] gorillaspy.logging INFO: Configurado Logging
+21130 [2018-02-07 00:08:11,064] niponcred_api.api INFO: Configurado Flask
+21130 [2018-02-07 00:08:11,064] niponcred_api.api INFO: Configurado Ext Flask CORS
+21130 [2018-02-07 00:08:11,064] niponcred_api.api INFO: Configurado Extensão Flask SQLAlchemy
+21130 [2018-02-07 00:08:11,071] niponcred_api.api INFO: Configurado Ext Flask Restless
+21130 [2018-02-07 00:08:11,073] niponcred_api.api INFO: Configurado o health status do API
+21130 [2018-02-07 00:08:11,086] werkzeug WARNING:  * Debugger is active!
+21130 [2018-02-07 00:08:11,086] werkzeug INFO:  * Debugger PIN: 134-541-652
