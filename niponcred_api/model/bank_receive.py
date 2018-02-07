@@ -1,14 +1,14 @@
 from niponcred_api import db
 
-from sqlalchemy import event
 
-from gorillaspy.business.model import ModelBase
-from gorillaspy.business.model.hooks import input_audit_data_on_insert, input_audit_data_on_update
+class BankReceive(db.Model):
 
-
-class BankReceive(ModelBase, db.Model):
-
+    id = db.Column(db.Integer(), primary_key=True, nullable=False)
     name = db.Column(db.String(256), nullable=False)
 
-event.listen(BankReceive, 'before_insert', input_audit_data_on_insert)
-event.listen(BankReceive, 'before_update', input_audit_data_on_update)
+    def __repr__(self):
+        return "%s.%s(id=%r)" % (self.__class__.__module__, self.__class__.__name__, self.id)
+
+    def __str__(self):
+        return "%s" % self.id or 'new object'
+
