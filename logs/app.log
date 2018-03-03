@@ -737,3 +737,19 @@ sqlalchemy.exc.InternalError: (pymysql.err.InternalError) (1054, "Unknown column
 21130 [2018-02-07 00:08:11,073] niponcred_api.api INFO: Configurado o health status do API
 21130 [2018-02-07 00:08:11,086] werkzeug WARNING:  * Debugger is active!
 21130 [2018-02-07 00:08:11,086] werkzeug INFO:  * Debugger PIN: 134-541-652
+8812 [2018-03-02 21:24:43,351] gorillaspy.logging INFO: Configurado Logging
+8812 [2018-03-02 21:24:43,357] niponcred_api.api INFO: Configurado Flask
+8812 [2018-03-02 21:24:43,359] niponcred_api.api INFO: Configurado Ext Flask CORS
+8812 [2018-03-02 21:24:43,359] niponcred_api.api INFO: Configurado Extensão Flask SQLAlchemy
+8812 [2018-03-02 21:24:43,481] niponcred_api.api INFO: Configurado Ext Flask Restless
+8812 [2018-03-02 21:24:43,512] niponcred_api.api INFO: Configurado o health status do API
+8812 [2018-03-02 21:24:43,620] werkzeug INFO:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+8812 [2018-03-02 21:24:43,624] werkzeug INFO:  * Restarting with stat
+8826 [2018-03-02 21:24:43,899] gorillaspy.logging INFO: Configurado Logging
+8826 [2018-03-02 21:24:43,900] niponcred_api.api INFO: Configurado Flask
+8826 [2018-03-02 21:24:43,900] niponcred_api.api INFO: Configurado Ext Flask CORS
+8826 [2018-03-02 21:24:43,900] niponcred_api.api INFO: Configurado Extensão Flask SQLAlchemy
+8826 [2018-03-02 21:24:43,907] niponcred_api.api INFO: Configurado Ext Flask Restless
+8826 [2018-03-02 21:24:43,909] niponcred_api.api INFO: Configurado o health status do API
+8826 [2018-03-02 21:24:43,917] werkzeug WARNING:  * Debugger is active!
+8826 [2018-03-02 21:24:43,922] werkzeug INFO:  * Debugger PIN: 134-541-652
