@@ -12,7 +12,7 @@ from gorillaspy.health.metrics.http import HTTPHealthMetric
 from gorillaspy.logging import config_base_logger
 from gorillaspy.web.api.util import exception_handler, DefaultJSONEncoder
 from niponcred_api import config, db
-from niponcred_api.api import customer, phone, uf, bank_receive, bank, contract
+from niponcred_api.api import customer, phone, uf, bank_receive, bank, contract, user, annotation_contract
 
 LOGGER = logging.getLogger(__name__)
 
@@ -29,6 +29,8 @@ def create_apis(api):
     bank_receive.create_api(api)
     bank.create_api(api)
     contract.create_api(api)
+    annotation_contract.create_api(api)
+    user.create_api(api)
 
 
 config_base_logger()
